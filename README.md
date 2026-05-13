@@ -2,6 +2,10 @@
 
 Projeto de formulário de cadastro desenvolvido com HTML, CSS e JavaScript, com foco em responsividade, validação de senha e manipulação do DOM.
 
+## 📸 Preview
+
+![Preview do projeto](img/preview.png)
+
 ## 🚀 Funcionalidades
 
 * Cadastro de usuário
