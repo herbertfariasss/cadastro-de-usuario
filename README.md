@@ -1,59 +1,24 @@
 # Cadastro de Usuário
 
-Projeto de formulário de cadastro desenvolvido com HTML, CSS e JavaScript, com foco em responsividade, validação de senha e manipulação do DOM.
+Formulário responsivo feito com HTML, CSS e JavaScript para praticar eventos, manipulação do DOM e validação de campos. O preenchimento e a validação acontecem no navegador.
 
-## 📸 Preview
+[Experimentar no GitHub Pages](https://herbertfariasss.github.io/cadastro-de-usuario/)
 
-![Preview do projeto](img/preview.png)
+![Captura de tela do formulário de cadastro](img/preview.png)
 
-## 🚀 Funcionalidades
+## Como executar
 
-* Cadastro de usuário
-* Validação de senha em tempo real
-* Confirmação de senha
-* Feedback visual nos campos
-* Layout responsivo
-* Interface moderna e simples
-
-## 🛠️ Tecnologias utilizadas
-
-* HTML5
-* CSS3
-* JavaScript
-
-## 📚 Aprendizados
-
-Durante o desenvolvimento deste projeto, pratiquei:
-
-* Estruturação semântica com HTML
-* Responsividade com CSS
-* Manipulação do DOM
-* Eventos em JavaScript
-* Validação de formulários
-* Organização de arquivos em projetos front-end
-
-## 🌐 Projeto Online
-
-Acesse o projeto publicado:
-
-[Projeto Online](https://herbertfariasss.github.io/cadastro-de-usuario/)
-
-## 📁 Estrutura do Projeto
+Clone o repositório e abra [`index.html`](index.html) no navegador.
 
 ```bash
-cadastro-de-usuario/
-│
-├── css/
-│   ├── style.css
-│   └── responsive.css
-│
-├── js/
-│   └── script.js
-│
-├── index.html
-└── README.md
+git clone https://github.com/herbertfariasss/cadastro-de-usuario.git
+cd cadastro-de-usuario
 ```
 
-## 👨‍💻 Autor
+Preencha os campos obrigatórios e digite uma senha com pelo menos seis caracteres. A confirmação precisa coincidir com a senha. Ao validar o formulário, a página exibe uma mensagem de sucesso e limpa os campos. O formulário simula um cadastro e descarta os valores após a validação.
 
-Desenvolvido por Herbert Farias.
+## Estrutura
+
+- [`index.html`](index.html) contém o formulário.
+- [`css/`](css/) contém os estilos e as regras de responsividade.
+- [`js/script.js`](js/script.js) valida a senha e trata o envio.
